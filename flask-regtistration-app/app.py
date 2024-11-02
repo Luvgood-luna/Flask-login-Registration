@@ -8,9 +8,9 @@ app = Flask(__name__, template_folder='templates')
 app.secret_key = os.urandom(24)
 
 app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'sqluser'
-app.config['MYSQL_PASSWORD'] = 'password'
-app.config['MYSQL_DB'] = 'testdb'
+app.config['MYSQL_USER'] = '*******'
+app.config['MYSQL_PASSWORD'] = '********'
+app.config['MYSQL_DB'] = '******'
 app.config['SESSION_COOKIE_SECURE'] = True
 app.config['SESSION_COOKIE_HTTPONLY'] = True
 app.config['SESSION_COOKIE_SAMESITE'] = 'Lax'
